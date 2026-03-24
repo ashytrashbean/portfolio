@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    background-color: #286633;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#icons{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.current{
+    border-bottom: 2px solid black;
+}
+
+#profile{
+    transform: rotate(-5deg);
+    background-color: white;
+    padding: 25px 10px;
+    flex-direction: column;
+    z-index: 1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5d5bb;
+    /* background-color: #3a3a37; */
+    background-image: url(/images/Background.png);
+}
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+span{ 
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+section{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+#about{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #e7e7d1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+    margin: 0 10%;
+    padding: 10px;
+}
+
+article{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+button{
+    background: none;
+    border-style: none;
+    text-decoration: underline;
+    font-style: italic;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius:8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #d5d5bb8b;
+}
+
+.frontend{ background-color: #286633ca;}
+.games{background-color: #f1b22bca;}
+.art{background-color: #f591b6ca;}
+.anim{background-color: #D62887ca;}
+.craft{background-color: #86299Cca;}
+
+footer{
+    background-color: #286633;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-self: end;
+    align-self: flex-end;
+}
