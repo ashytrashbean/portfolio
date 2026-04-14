@@ -48,7 +48,7 @@ body{
     align-items: center;
     background-color: #d5d5bb;
     /* background-color: #3a3a37; */
-    background-image: url(/images/Background.png);
+    background-image: url(./images/Background.png);
 }
 
 main{
